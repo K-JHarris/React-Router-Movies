@@ -7,8 +7,8 @@ import Movie from './Movies/Movie';
 import { Route } from "react-router-dom";
 
 export default class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       savedList: []
     };
